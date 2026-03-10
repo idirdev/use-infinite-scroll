@@ -1,3 +1,5 @@
+> **Archived** — Kept for reference. Not part of the current portfolio.
+
 # use-infinite-scroll
 
 [![npm version](https://img.shields.io/npm/v/@idirdev/use-infinite-scroll)](https://www.npmjs.com/package/@idirdev/use-infinite-scroll)
