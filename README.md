@@ -180,3 +180,22 @@ function CustomVirtualList({ items }) {
 ## License
 
 MIT
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+**use-infinite-scroll** est un hook React personnalisé pour implémenter le défilement infini. Il utilise l'API `IntersectionObserver` pour détecter quand l'utilisateur approche du bas de la page et déclencher automatiquement le chargement des données suivantes, sans dépendances externes.
+
+### Installation
+```bash
+npm install @idirdev/use-infinite-scroll
+```
+
+### Utilisation
+```tsx
+import { useInfiniteScroll } from "@idirdev/use-infinite-scroll";
+const { ref, isLoading } = useInfiniteScroll(() => fetchNextPage());
+// <div ref={ref}>{isLoading && <span>Chargement...</span>}</div>
+```
